@@ -1,0 +1,761 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container topbar{
+    width: 100%;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+
+.bg-1{
+    background-color: #F5F4F2;
+}
+
+.nav-contact{
+    color: #2E2A4D;
+    display: inline-block;
+    padding:13px 20px;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    padding: 32px 15px;
+}
+
+.d-flex1{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width:60%;
+}
+.logo img{
+    display: block;
+    margin-left:auto;
+}
+
+.logo1{
+    width:40%;
+    text-align: end;
+}
+
+.navbar{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+.navbar-bg{
+    background:#2E2A4D
+}
+
+.navbar a{
+    text-decoration: none;
+    padding:20px 0px;
+    margin: 0px 30px;
+    color: white;
+    border-top:2px solid transparent
+}
+
+.navbar a:hover{
+    border-top: 2px solid white;
+}
+
+.main{
+    width:100%;
+    height: 80vh;
+    background-image:url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-773.png);
+}
+
+.main1, .main2{
+    width: 50%;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    color: #574CAE;
+    font-weight: 100;
+    line-height: 1.6;
+    font-size: 1.25em;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: "Playfair Display SC", serif;
+    color: #2E2A4D;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 1.6;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+p {
+   font-family: "Source Code Pro", monospace;
+    font-size: 17px;
+    color: #555555;
+    line-height: 1.8;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.button {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    background: #2E2A4D;
+    color: #FFFFFF;
+    border-color: transparent;
+    border-radius: 50px;
+    border: none;
+    padding: 12px 45px;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    display: inline-flex;    
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background: #1a182c;
+}
+
+.feature{
+    width:25%;
+    border-left: 1px solid gainsboro;
+    /* border:1px solid red; */
+    color: #555555;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding:10px;
+    text-align: center;
+    position: relative;
+}
+
+.feature h3, p{
+    line-height: 1.8;
+}
+ 
+.feature h3{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feature p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.feature i{
+    border-radius: 50%;
+    font-size: 25px;
+    border: 1px solid gainsboro;
+    padding:10px;
+    color: #574CAE;
+}
+.add1, .add2{
+    width: 50%;
+    padding: 0px 15px;
+}
+
+.add11, .add21{
+    height: 386px;
+    background-size: cover;
+    position: relative;
+    background-position:right ;
+}
+
+.add11{
+    background-image: url(	https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-775.jpg);
+}
+
+.add21{
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-776.jpg);
+}
+
+.addtext1{
+    position: absolute;
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.addtext1 p{
+    color: #555555;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    padding-bottom: 5px;
+}
+
+.addtext1 h2{
+    font-family: Playfair Display, serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #2E2A4D;
+    text-align: start;
+    padding-bottom: 20px;
+}
+
+.addtext1 button {
+    background-color:#2E2A4D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+
+}
+  
+.addtext1 button:hover {
+    background: #1a182c;
+}
+
+.addtext2{
+    position: absolute;
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.addtext2 p{
+    color: #555555;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    padding-bottom: 5px;
+}
+
+.addtext2 h2{
+    font-family: Playfair Display, serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #2E2A4D;
+    text-align: end;
+    padding-bottom: 20px;
+}
+
+.addtext2 button {
+    background-color:#2E2A4D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+  
+.addtext2 button:hover {
+    background: #1a182c;
+}
+
+.prod-heading h2{
+    text-align: center;
+    /* margin-top: 100px;  */
+    font-family: 'Libre Baskerville', serif;
+    font-size: 34px;
+    padding-bottom: 25px;
+    color: #2E2A4D;
+
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px; 
+    flex-wrap: wrap;
+}
+
+.prod{
+    width: 33.33%;
+    border: 1px dashed gainsboro;
+    padding: 35px;
+}
+
+.prod-box{
+    /* border: 1px solid gray; */
+    text-align: center;
+}
+
+.title-prod{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    color: #2E2A4D;
+    padding-bottom: 5px;
+}
+
+.price-prod{
+    margin-bottom: 25px;
+}
+
+.price-prod p{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    color: #2E2A4D;
+    text-align: center;
+}
+
+.img-prod{
+    height: 210px;
+    position: relative;
+}
+
+.img-prod img{
+    height: 100%;
+}
+
+.box0::before{
+    content: "Sale";
+    background-color:#574CAE;
+    color: white;
+    padding: 5px 10px;
+    border-radius:20px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.deals{
+    padding: 50px;
+    /* border:1px solid green; */
+    background-image:url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-777.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.sub-deals{
+    margin-top: 50px;
+    padding: 35px;
+    /* border: 1px solid green; */
+    background-color: #0B1C2D;
+    border-radius: 1px;
+    width: 50%;
+}
+
+.sub-deals h3{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sub-deals h3::before{
+    content: "";
+    display: inline-block;
+    border-top:1px solid white ;
+    width: 80px;
+    transform: translate(-10px, -5px);
+
+}
+
+.sub-deals h3::after{
+    content: "";
+    display: inline-block;
+    border-top:1px solid white ;
+    width: 80px;
+    transform: translate(10px, -4px);
+
+}
+
+.sub-deals p{
+    margin:30px auto;
+    color: #FFFFFF;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 34px;
+    text-align: center;
+}
+
+.sub-deals .button1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.addsg1, .addsg2, .addsg3{
+    width: 33.33333%;
+    padding: 0px 15px;
+}
+
+.addsg11, .addsg21, .addsg31{
+    background-size: cover;
+    position: relative;
+    background-position:right ;
+}
+
+.addsg11{
+    background-color: #f5e8e8;
+    padding: 40px;
+}
+
+.addsg21{
+    background-color: #e5eff2;
+    padding: 40px;
+}
+
+.addsg31{
+    background-color: #f4f0e8;
+    padding: 40px;
+}
+
+.sg{
+    display: flex;
+    justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.sg img{
+  margin-bottom: 20px;
+}
+
+.addsgt1 h6{
+    text-align: center;
+    color: #574CAE;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    margin-top: 20px;
+}
+
+.addsgt1 h4{
+    color: #2E2A4D;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+    margin-top: 20px;
+}
+
+.addsgt1 button{
+    background-color:#2E2A4D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    margin: 20px auto 0px auto;
+}
+  
+.addsgt1 button:hover {
+    background: #1a182c;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.deals1{
+    padding: 50px;
+    /* border:1px solid green; */
+   background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-781.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+.sub-deals1{
+    margin-top: 50px;
+    padding: 35px;
+    /* border: 1px solid green; */
+   
+    border-radius: 1px;
+    width: 50%;
+}
+
+.sub-deals1 h5{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+
+.sub-deals1 h2{
+    font-family: Libre Baskerville, serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sub-deals1 p{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+
+.sub-deals1 button {
+    background-color:#2E2A4D;
+    border: none;
+    color: #FFFFFF;
+    padding: 12px 45px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    margin: auto;
+}
+  
+.sub-deals1 button:hover {
+    background: #1a182c;
+}
+
+.brands{
+    width:100%;
+   /* border:1px solid red; */
+}
+
+.boxs{
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    background-image: url(https://static.zohocdn.com/ecommerce/stock-images/images/zpstock-image-782.jpg);
+    border-radius: 1px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    background-position: center;
+    align-items: center;
+}
+
+.boxs1{
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.boxs2{
+    width: 50%;
+    /* border: 1px solid red; */
+    height: 530px;
+    overflow: hidden;
+}
+
+.boxs2 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 530px;
+}
+
+.py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.boxs h4{
+    color: #2E2A4D;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+
+.boxs1 h2{
+    font-family: Libre Baskerville, serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #574CAE;
+    display: block;
+}
+
+.boxs1 .button{
+    font-family: 'Noto Sans', sans-serif;
+    border-color: #4a3ea6;
+    border: 1px solid;
+    text-transform: none;
+    font-weight: normal;
+    color: #574CAE;
+    padding: 7px 12px;
+    text-align: center;
+    font-size: 13px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: auto;
+    background: transparent;
+}
+
+.boxs1 .button:hover {
+    background: #574CAE;
+    color: #FFFFFF;
+}
+
+.boxs1 .button2{
+    background-color:#2E2A4D;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 20px auto 0px auto;
+}
+  
+.boxs1 button2:hover {
+    background: #1a182c;
+}
+.footer1{
+    background-color: rgb(31, 27, 60);
+    width: 100%;
+}
+.content1{
+    width:50%;
+    border-radius: 1px;
+    padding: 10px 0px 10px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.content1 i{
+    border-radius: 50%;
+    font-size: 25px;
+    border: 1px solid gainsboro;
+    padding:10px;
+    color: #574CAE;
+}
+
+.content1 h5{
+    padding-inline-start: 15px;
+    text-align: start;
+    color: #2E2A4D;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.footer{
+    width: 100%;
+    background-color:#2E2A4D;
+}
+.feature1{
+    width:25%;
+   
+    /* border:1px solid red; */
+    color: #555555;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding: 50px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.feature1 h3, p{
+    line-height: 1.8;
+}
+ 
+.feature1 h3{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.feature1 p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.feature1 i{
+    border-radius: 50%;
+    font-size: 25px;
+    border: 1px solid gainsboro;
+    padding:10px;
+    color: #574CAE;
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+ 
