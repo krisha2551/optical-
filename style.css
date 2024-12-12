@@ -14,7 +14,6 @@
     /* border: 1px solid red; */
 }
 
-
 .bg-1{
     background-color: #F5F4F2;
 }
@@ -42,6 +41,7 @@
 .logo{
     width:60%;
 }
+
 .logo img{
     display: block;
     margin-left:auto;
@@ -57,6 +57,7 @@
     margin: auto;
     display: flex;
 }
+
 .navbar-bg{
     background:#2E2A4D
 }
@@ -296,7 +297,6 @@ p {
     font-size: 34px;
     padding-bottom: 25px;
     color: #2E2A4D;
-
 }
 
 .products{
@@ -666,48 +666,108 @@ p {
     margin: 20px auto 0px auto;
 }
   
-.boxs1 button2:hover {
+.boxs1 .button2:hover {
     background: #1a182c;
 }
+
 .footer1{
     background-color: rgb(31, 27, 60);
     width: 100%;
+    margin-top: 100px;
 }
+
+.footer2{
+    background-color:#2E2A4D;
+    width: 100%;
+}
+
 .content1{
     width:50%;
     border-radius: 1px;
     padding: 10px 0px 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .content1 i{
     border-radius: 50%;
     font-size: 25px;
     border: 1px solid gainsboro;
-    padding:10px;
+    padding:8px;
     color: #574CAE;
 }
 
 .content1 h5{
-    padding-inline-start: 15px;
     text-align: start;
-    color: #2E2A4D;
+    color: #9f99cd;
     font-family: 'Libre Baskerville', serif;
     font-size: 16px;
     font-weight: normal;
     text-transform: none;
-    line-height: 1.8;
     letter-spacing: normal;
+    padding: 0px;
 }
+.content3 {
+    width: 100%;
+}
+
+.bbottom{
+    border-bottom: 1px solid  #555555;
+}
+
+.content3 h5{
+    text-align: center;
+    color: #9f99cd;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: normal;
+    padding: 0px;
+}
+
 .footer{
     width: 100%;
     background-color:#2E2A4D;
 }
+
+.content2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.content2 input{
+    background: #FFFFFF;
+    border-color: #EAEAEA;
+    color: #555555;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding:  5px;
+}
+
+.content2 .button3{
+    background-color: #574CAE;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 35px;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0px;
+}
+
+.content2 .button3:hover {
+    background-color: #453c8b;
+}
+
 .feature1{
     width:25%;
-   
-    /* border:1px solid red; */
+   /* border:1px solid red; */
     color: #555555;
     font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
@@ -740,6 +800,8 @@ p {
     padding:10px;
     color: #574CAE;
 }
+
+
 
 
 
